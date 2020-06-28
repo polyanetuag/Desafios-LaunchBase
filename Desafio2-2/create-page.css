@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #333;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    background-color: rgba(78, 13, 147, 0.728);
+    padding: 5px;
+    text-align: center;
+}
+
+header h1 {
+    color: cornsilk;
+    font-size: 25px;
+    line-height: 35px;
+    
+}
+
+.logo img {
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    width: 1200px;
+    text-align: center;
+    background-color: rgba(251, 248, 251, 0.884);
+    border-radius: 20px;
+}
+
+.content h1 {
+    color:  #8808c4;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.content img {
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.content h2 {
+    color: #7159C1;
+    padding-top: 40px;
+}
+
+ul { 
+    color: #333;
+    margin-bottom: 50px;
+}
+
+ul {list-style: none}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+li::before { content:".", color red}
+
+li::before {content: "•"; color: red;
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+
+.footer {
+    text-align: center;
+    margin: 40px;
+}
+
+.footer a {
+    color: rgb(113, 89, 193);
+    text-decoration: none;
+    margin: 20px
+}
+
+.footer a:hover {
+    color: black;
+    transition: 200ms;
+}
