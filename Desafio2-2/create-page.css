@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: rgba(78, 13, 147, 0.728);
+    background-image: linear-gradient(to bottom right, white, rgb(89, 10, 164));
     padding: 5px;
     text-align: center;
 }
@@ -44,7 +44,7 @@ header h1 {
 }
 
 .content h1 {
-    color:  #8808c4;
+    color:  #5c0784;
     font-size: 30px;
     margin: 20px;
 }
@@ -52,17 +52,25 @@ header h1 {
 .content img {
     width: 200px;
     border-radius: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-right: 300px;
 }
 
 .content h2 {
-    color: #7159C1;
-    padding-top: 40px;
+    color: #4b01ca;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 8px;
+    margin-top: -200px;
+    margin-left: 300px;
+    padding-bottom: 10px;
+    
 }
 
 ul { 
     color: #333;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
+    margin-left: 300px;
 }
 
 ul {list-style: none}
