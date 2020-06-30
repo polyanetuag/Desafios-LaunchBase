@@ -7,39 +7,49 @@
 }
 
 body {
-    background: #333;
+    background: linear-gradient(-90deg, rgb(184,130,221),#5c4998);
     font-family: 'Roboto', sans-serif;
     
 }
 
 header {
-    background-image: linear-gradient(to bottom right, white, rgb(89, 10, 164));
-    padding: 5px;
-    text-align: center;
+    background: rgba(51, 51, 51, 0.8);
 }
-
-header h1 {
-    color: cornsilk;
-    font-size: 25px;
-    line-height: 35px;
-    
-}
-
-.logo img {
-    width: 70px;
-    border-radius: 50%;
-    border: 2px solid white;
-
+.links {
+    color: white;
+    padding: 10px;
+     
+ }
+ 
+ .links img {
+     width: 200px;
+     margin-left: 20px;
+     margin-right: 200px;
+     color: white;
+ }
+ 
+ .links a {
+     color: white;
+     align-items: center;
+     margin: 25px;
+     font-size: 20px;
+     line-height: 30px;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ .links a:hover {
+     color: rgb(207, 0, 253);
+     transition: 300ms;
 }
 
 .content {
     position: relative;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 70px;
     padding: 20px;
     width: 1200px;
     text-align: center;
-    background-color: rgba(251, 248, 251, 0.884);
+    background-color: rgba(251, 248, 251, 0.823);
     border-radius: 20px;
 }
 
@@ -90,15 +100,16 @@ li::before {content: "•"; color: red;
 .footer {
     text-align: center;
     margin: 40px;
+    font-weight: 700;
 }
 
 .footer a {
-    color: rgb(113, 89, 193);
+    color:white;
     text-decoration: none;
     margin: 20px
 }
 
 .footer a:hover {
-    color: black;
+    color: rgb(207, 0, 253);
     transition: 200ms;
 }
